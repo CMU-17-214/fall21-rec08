@@ -1,0 +1,17 @@
+{
+	"name": "loggingsystem",
+	"description": "...",
+	"version": "0.1.0",
+	"license": "GPLv3",
+	"devDependencies": {
+		"typescript": "^4.4.3",
+		"@types/readline-sync": "^1.4.4"
+	},
+	"scripts": {
+		"compile": "tsc",
+		"exec": "node dist/main.js"
+	},
+	"dependencies": {
+		"@types/node": "^16.7.4"
+	}
+}
